@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heallo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+       <form action="#" class="formin">
+            <label for="Name">Name:</label>
+            <br>
+            <input type="text" id="Name" name="Consumer_Name">
+            <br>
+            <br>
+            <label for="Pincode">Pincode:</label>
+            <br>
+            <input type="number" id="Pincode" name="Pincode" maxlength="6" onchange="fire()">
+            <br>
+            <br>
+            <label for="City">City:</label>
+            <br>
+            <input type="text" id="City" name="City" disabled>
+            <br>
+            <br>
+            <label for="State">State:</label>
+            <br>
+            <input type="text" id="State" name="State" disabled>
+            <br>
+            <br>
+        </form>
+        <button id="btn" onclick="ui2()">SUBMIT</button>
+    </div>
+    <script src="primary.js"></script>
+</body>
+</html>
